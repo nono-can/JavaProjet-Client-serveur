@@ -46,7 +46,7 @@ Messages Privés : En sélectionnant un utilisateur dans la liste de gauche, le 
 Interface Moderne : Thème sombre pour la liste des utilisateurs et gestion des styles (gras/italique) dans l'historique de chat.
 
 🛠️ Installation et Lancement
-Cloner le dépôt : git clone [URL_DU_REPO]
+Cloner le dépôt : git clone (https://github.com/nono-can/JavaProjet-Client-serveur.git)
 
 Configurer le JAR : Assurez-vous que le fichier gson.jar est bien référencé dans votre IDE.
 
