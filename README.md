@@ -1,8 +1,8 @@
 Projet Java : Application de Chat Multi-utilisateurs (Sockets & JSON)
-📝 Présentation du Projet
+Présentation du Projet
 Ce projet consiste en la création d'une application de messagerie instantanée en réseau basée sur une architecture Client/Serveur. L'application permet à plusieurs utilisateurs de se connecter simultanément à un serveur central pour échanger des messages en temps réel, soit de manière publique, soit via des messages privés.
 
-🏗️ Architecture du Code
+Architecture du Code
 Pour garantir la maintenabilité et la clarté du code, le projet est découpé en trois packages distincts, respectant une logique de séparation des responsabilités :
 
 com.projet.common : Regroupe les ressources partagées.
@@ -23,7 +23,7 @@ ChatClient : Gère la socket côté client.
 
 ChatWindow (Swing) : Interface graphique avancée utilisant un JTextPane pour un affichage stylisé et une JList dynamique pour la gestion des utilisateurs connectés.
 
-🚀 Technologies et Bibliothèques
+Technologies et Bibliothèques
 Utilisation de Google GSON (gson.jar)
 Le choix a été fait d'utiliser la bibliothèque GSON pour la communication entre le client et le serveur.
 
@@ -36,7 +36,7 @@ Serveur : Chaque client est isolé dans un thread pour éviter de bloquer l'éco
 
 Client : Utilisation systématique de SwingUtilities.invokeLater() pour mettre à jour l'interface graphique (GUI) à partir du thread d'écoute, respectant ainsi les contraintes de l'Event Dispatch Thread de Java Swing.
 
-✨ Fonctionnalités implémentées
+Fonctionnalités implémentées
 Identification immédiate : Dès la connexion, le client envoie un message technique de type CONNECT pour s'enregistrer auprès du serveur.
 
 Liste d'utilisateurs dynamique : Le serveur diffuse (broadcast) la liste mise à jour des pseudos à chaque nouvelle connexion ou déconnexion.
@@ -45,8 +45,8 @@ Messages Privés : En sélectionnant un utilisateur dans la liste de gauche, le 
 
 Interface Moderne : Thème sombre pour la liste des utilisateurs et gestion des styles (gras/italique) dans l'historique de chat.
 
-🛠️ Installation et Lancement
-Cloner le dépôt : git clone (https://github.com/nono-can/JavaProjet-Client-serveur.git)
+Installation et Lancement
+Cloner le dépôt : git clone https://github.com/nono-can/JavaProjet-Client-serveur.git
 
 Configurer le JAR : Assurez-vous que le fichier gson.jar est bien référencé dans votre IDE.
 
@@ -57,5 +57,5 @@ Lancer les Clients : Exécutez la classe com.projet.client.AppLauncher pour ouvr
 Si vous souhaitez tester les messages privés, il suffit de cliquer sur un pseudo dans la liste de gauche avant d'envoyer votre message. Pour revenir en mode public, sélectionnez "Tous".
 
 
-👨‍💻 Auteur
+Auteur
 Ndiaye Cyril Arnaud / Ndione Marie Hélène Emma Suzanne  - Étudiants en Licence 3 Genie Logiciel.
